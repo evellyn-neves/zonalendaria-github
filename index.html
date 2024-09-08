@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Zona Lendária</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="navbar-left">
+                <a href="#">Home</a>
+                <a href="#">Notícias</a>
+            </div>
+            <img src="logotipo ZL.svg" alt="Logotipo" class="logo-nav">
+            <div class="navbar-right">
+                <a href="#">Reviews</a>
+                <a href="#">Wikigames</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <!-- Primeira Seção: Herobanner com Gradiente -->
+        <section class="herobanner">
+            <h1>Sua Enciclopédia Gamer!</h1>
+            <p>Aqui você encontra notícias de lançamentos, reviews, curiosidades e dicas sobre o mundo dos games.</p>
+            <img src="logo_zona_lendaria_1.svg" alt="Logotipo" class="logo">
+            <input type="text" placeholder="O que você procura?" id="campo-pesquisa">
+            <button onclick="buscar()" id="botao" >Buscar</button>
+        </section>
+
+        <section class="resultados-pesquisa" id="resultados-pesquisa">
+        </section>
+
+        <!-- Segunda Seção: Notícias -->
+        <section class="noticia" id="noticia-page">
+            <div class="noticia-esquerda">
+                <div class="categoria">
+                    <span>Notícia</span>
+                </div>
+                <h2>Astro Bot: Evento de lançamento acontecerá em São Paulo</h2>
+                <p>Para comemorar o grande lançamento do game Astro Bot, a PlayStation organizará em São Paulo um evento
+                    aberto ao público no sábado (7) no Shopping JK Iguatemi.</p>
+                <button class="btn-cta">Ver mais</button>
+            </div>
+            <div class="noticia-direita">
+                <img src="astro-bot-capa-manchete.jpg" alt="Imagem da manchete" class="imagem-noticia">
+            </div>
+        </section>
+
+        <!-- Terceira Seção: Destaques -->
+        <section class="destaques" id="destaque-page">
+            <h2 class="titulo-destaques">Em destaque</h2>
+            <div class="destaques-container">
+                <div class="destaque-item">
+                    <img src="The-legend-miniatura.png" alt="The Legend of Zelda ganhará filme live-action" class="imagem-destaque">
+                    <h3 class="titulo-destaque">The Legend of Zelda ganhará filme live-action</h3>
+                </div>
+                <div class="destaque-item">
+                    <img src="Final-Fantasy-miniatura.png" alt="Criador de Final Fantasy anuncia novo jogo" class="imagem-destaque">
+                    <h3 class="titulo-destaque">Criador de Final Fantasy anuncia novo jogo</h3>
+                </div>
+                <div class="destaque-item">
+                    <img src="Astro-bot-miniatura.png" alt="Astro Bot: Quais são os easter eggs no game" class="imagem-destaque">
+                    <h3 class="titulo-destaque">Astro Bot: Quais são os easter eggs no game</h3>
+                </div>
+            </div>
+        </section>
+
+    </main>
+<footer>
+    <div class="footer-container">
+      <div class="footer-column">
+        <h3>QUEM SOMOS</h3>
+        <a href="#">História</a>
+        <a href="#">Nosso Time</a>
+        <a href="#">Trabalhe Conosco</a>
+      </div>
+      <div class="footer-column">
+        <h3>CUPONS DE DESCONTO</h3>
+        <a href="#">Pichau</a>
+        <a href="#">Amazon</a>
+        <a href="#">Kabum</a>
+      </div>
+      <div class="footer-column">
+        <h3>ZONA LENDÁRIA</h3>
+        <a href="#">Notícias</a>
+        <a href="#">Reviews</a>
+        <a href="#">WikiGames</a>
+        <div class="social-media">
+          <img src="Instagram.png"class="icon-social" >
+          <img src="Facebook.png" class="icon-social"  >
+          <img src="Twitt.png"  class="icon-social">
+          <img src="youtube.png" class="icon-social">            
+        </div>
+      </div>
+    </div>
+    <div class="copyright-container">
+      <p class="copyright">&copy; COPYRIGHT 2024 - ZONA LENDÁRIA GAMES. TODOS OS DIREITOS RESERVADOS.</p>
+    </div>
+  </footer>
+    <script src="dados.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
