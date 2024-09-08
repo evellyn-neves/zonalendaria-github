@@ -5,12 +5,6 @@ function buscar() {
 
     let campoPesquisa = document.getElementById("campo-pesquisa").value
 
-    // se campoPesquisa for uma string sem nada
-    // if (!campoPesquisa) {
-    //     section.innerHTML = "<p>Nenhum resultado encontrado</p>"
-    //     return
-    // }
-
     // Verifica se campoPesquisa está vazio após remover espaços em branco.
     // Se estiver vazio, exibe uma mensagem de erro e interrompe a função.
     if (!campoPesquisa.trim()) {
